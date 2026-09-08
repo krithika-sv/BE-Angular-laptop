@@ -1,6 +1,6 @@
 const express = require("express")
 const { addlaptopcontroller, getlaptopcontroller, getsingledatacontroller, getsingledataandupdatecontroller, deletelaptopdatacontroller } = require("./controller/laptopController")
-const multerMiddleware = require("./middleware/multermiddleware")
+const multerMiddleware = require("./middleware/multerMiddleware")
 
 const router = new express.Router()
 
